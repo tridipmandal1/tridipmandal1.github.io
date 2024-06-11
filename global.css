@@ -1,0 +1,134 @@
+.heading {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-family: "Yatra One", system-ui;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+/* For tablets: */
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 18px;
+    }
+}
+
+/* For mobile phones: */
+@media screen and (max-width: 480px) {
+    .heading {
+        font-size: 14px;
+    }
+}
+
+body{
+    background-color: rgb(216, 216, 147);
+}
+
+.nav-item{
+    font-family: Joti One;
+    font-size: large;
+    padding-bottom: 30px;
+}
+
+.myImage{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.my-name{
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 50pt;
+    margin-top: 30px;
+}
+
+.header{
+    overflow: auto;
+}
+
+.my-image{
+    float: left;
+    width: 30%;
+}
+
+.head-bar{
+    float: right;
+    width: 60%;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1032px) {
+    .my-image{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .head-bar{
+        float: middle;
+        width: 95%;
+        margin-top: 30px;
+       
+    }
+
+    .nav{
+        display: flex;
+        flex-wrap: nowrap; 
+    }
+    .nav-item{
+        flex: 1; 
+        text-align: center;
+        font-size: 18pt;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .my-image{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .myImage{
+        height: 200px;
+        width:200px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .my-name{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30pt;
+        text-align: center;
+    }
+
+    .head-bar{
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .nav-item{
+        font-size: 10pt;
+    }
+
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .nav-item{
+        flex: 0 0 20%;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+#page{
+  background-color: rgb(216, 216, 147);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 3cap;
+    margin-bottom: 30px;
+    color: white;
+}  
+
+
+th, td {
+    border: 5px solid #efecec;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 15px;
+    
+    
+}
+#head th {
+    background-color: #0a0d42 /* Replace #yourColor with the color you want */
+}
+
+tr:nth-child(even) {
+    background-color: #574b55; /* This will be the background color for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #b98ea0; /* This will be the background color for odd rows */
+}
+
+@media only screen  and (min-width: 992px) {
+    table {
+        width: 80%;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+@media only screen  and (min-width: 600px) {
+    table {
+        width: 90%;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+@media only screen  and (max-width: 600px) {
+    table {
+        width: 80%;
+        align-items: center;
+        align-self: center;
+    }
+}

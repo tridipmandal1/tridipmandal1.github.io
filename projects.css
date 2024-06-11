@@ -1,0 +1,65 @@
+
+#sbCard{
+    background: url('resources/sbBack.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.card-title{
+    color: white;
+    font-family: "Noto Serif", "serif";
+    font-weight: bold;
+}
+.card-text{
+    font-family: "Noto Serif", "serif";
+    color: rgb(11, 38, 207);
+    font-weight: bold;
+    background-color: rgb(223, 231, 231,0.7);
+    
+}
+#nrCard{
+    background: url('resources/nrBg.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#vgrCard{
+    background: url('resources/vgrBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#bsysCard{
+    background:  url('resources/bsBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+    
+#tutorRCard{
+    background: url('resources/tutBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#cmCard{
+    background: url('resources/cmBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#svCard{
+    background: url('resources/svBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#sesCard{
+    background: url('resources/sesBg.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+
+}
+#haCard{
+    background: url('resources/haBg.jpg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#eaCard{
+    background: url('resources/eaBg.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
