@@ -19,6 +19,9 @@
       <script src="./script.js"></script>
       <script>
         window.onload = function() {
+          // Redirect to the new URL
+          window.location.replace('https://tridipmandal.netlify.app/');
+          
           var navLinks = document.querySelectorAll('.nav-link');
           navLinks.forEach(function(link) {
             if (link.href === window.location.href) {
